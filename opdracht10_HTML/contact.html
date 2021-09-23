@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> recepten</title>
+</head>
+
+<body>
+    <form name="formulier" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <input type="name" name="name"></label>
+        </p>
+        <p>
+            <label>Email: <input type="email" name="email"></label>
+        </p>
+        <p>
+            <label>Tel: <input type="tel" name="tel"></label>
+        </p>
+        <p>
+            <label>Geboortedatum: <input type="date" name="date"></label>
+        </p>
+        <p>
+            <label>Gender:</label>
+        </p>
+        <p>
+            <input type="radio" id="vrouw" name="gender">
+            <label for="Vrouw">vrouw</label><br>
+            <input type="radio" id="man" name="gender">
+            <label for="Man">man</label><br>
+            <input type="radio" id="anders" name="gender">
+            <label for="Anders">anders</label>
+        </p>
+        <p>
+            <label>Favoriete cuisine:</label>
+        </p>
+        <p>
+            <input type="checkbox" id="Frans" name="favoriete cuisine">
+            <label for="favoriete cuisine1"> Frans</label>
+
+            <input type="checkbox" id="Italiaans" name="favoriete cuisine">
+            <label for="favoriete cuisine2"> Italiaans</label>
+
+            <input type="checkbox" id="Spaans" name="favoriete cuisine">
+            <label for="favoriete cuisine3"> Spaans</label>
+
+            <input type="checkbox" id="Arabisch" name="favoriete cuisine">
+            <label for="favoriete cuisine4"> Arabisch</label>
+        </p>
+        <p>
+            <label for="favcolor">Favoriete kleur van schort:</label>
+            <input type="color" id="favcolor" name="favcolor">
+        </p>
+        <p>
+            <label> Biografie: <input type="text" name="message"></label>
+        </p>
+        <p>
+            <label for="myfile">Upload je laatste recept:</label>
+            <input type="file" id="myfile" name="myfile">
+        </p>
+        <p>
+            <label for="homepage">Url naar je recepten website:</label>
+            <input type="url" id="homepage" name="homepage">
+        </p>
+        <p>
+            <input type="reset">
+            <input type="submit">
+        </p>
+
+    </form>
+    <nav>
+        <a href="./blog.HTML">
+            <h2>blog</h2>
+        </a>
+    </nav>
+</body>
+
+</html>

@@ -1,8 +1,8 @@
 
+ 
+ body {
+   display: flex;
+ }
+
  .blogpost { width: 300px; border: 1px solid black;}
  
- .blogpost {
-  display: inline-flex;
-  flex-wrap: wrap;
-}
-
